@@ -11,29 +11,29 @@
   },
   "dependencies": {
     "@shadcn/ui": "^0.0.4",
-    "autoprefixer": "latest",
+    "autoprefixer": "10.4.14",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "^11.18.1",
     "lucide-react": "^0.473.0",
-    "mobx": "latest",
-    "mobx-react": "latest",
-    "next": "latest",
-    "postcss": "latest",
-    "react": "latest",
-    "react-dom": "latest",
+    "mobx": "6.10.2",
+    "mobx-react": "7.6.0",
+    "next": "13.4.12",
+    "postcss": "8.4.24",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "tailwind-merge": "^2.6.0",
-    "tailwindcss": "latest",
+    "tailwindcss": "3.3.3",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "22.10.7",
     "@types/react": "19.0.7",
-    "eslint": "latest",
-    "eslint-config-next": "latest",
+    "eslint": "8.50.0",
+    "eslint-config-next": "13.4.12",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-prettier": "^5.2.2",
     "prettier": "^3.4.2",
-    "typescript": "latest"
+    "typescript": "5.2.2"
   }
 }
