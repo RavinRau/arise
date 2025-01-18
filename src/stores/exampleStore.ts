@@ -1,14 +1,13 @@
 class ExampleStore {
-    exampleProperty = '';
+  exampleProperty = ''
 
-    setExampleProperty(value: string) {
-        this.exampleProperty = value;
-    }
+  setExampleProperty(value: string) {
+    this.exampleProperty = value
+  }
 
-    getExampleProperty() {
-        return this.exampleProperty;
-    }
+  getExampleProperty() {
+    return this.exampleProperty
+  }
 }
 
-
-export const exampleStore = new ExampleStore();
+export const exampleStore = new ExampleStore()

@@ -10,15 +10,21 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@shadcn/ui": "^0.0.4",
     "autoprefixer": "latest",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "framer-motion": "^11.18.1",
+    "lucide-react": "^0.473.0",
     "mobx": "latest",
     "mobx-react": "latest",
     "next": "latest",
     "postcss": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "tailwindcss": "latest"
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss": "latest",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "22.10.7",

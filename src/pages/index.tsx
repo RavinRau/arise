@@ -1,7 +1,7 @@
 import React, { use, useEffect } from 'react'
 import { observer } from 'mobx-react'
-import { quoteStore } from '../stores/qouteStore'
-import Quote from '../components/Quote'
+import Quote from '@/components/Quote'
+import { quoteStore } from '@/stores/qouteStore'
 
 const Home: React.FC = observer(() => {
   useEffect(() => {
