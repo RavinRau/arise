@@ -1,4 +1,3 @@
-import { format } from 'date-fns'
 import { useEffect, useState } from 'react'
 import DateTime from './DateTime'
 
@@ -22,10 +21,12 @@ const DayGreeting: React.FC = () => {
 
   return (
     <div className="text-center mb-8">
-      <h1 className="text-3xl font-bold text-white mb-2">{getGreeting()}, Champion</h1>
-      <DateTime/>
+      <h1 className="text-3xl font-bold text-white mb-2">
+        {getGreeting()}, Champion
+      </h1>
+      <DateTime />
     </div>
   )
 }
 
-export default DayGreeting 
+export default DayGreeting

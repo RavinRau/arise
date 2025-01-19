@@ -22,4 +22,4 @@ const DateTime: React.FC = () => {
   )
 }
 
-export default DateTime 
+export default DateTime

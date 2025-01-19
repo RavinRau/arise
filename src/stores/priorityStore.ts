@@ -22,7 +22,7 @@ class PriorityStore {
   }
 
   removePriority = (id: string) => {
-    this.priorities = this.priorities.filter(priority => priority.id !== id)
+    this.priorities = this.priorities.filter((priority) => priority.id !== id)
   }
 
   reorderPriorities = (newOrder: Priority[]) => {
@@ -34,4 +34,4 @@ class PriorityStore {
   }
 }
 
-export const priorityStore = new PriorityStore() 
+export const priorityStore = new PriorityStore()

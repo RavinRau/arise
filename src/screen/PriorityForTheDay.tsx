@@ -23,7 +23,7 @@ export const PriorityForTheDay: React.FC = observer(() => {
       <DateTime />
       <div className="w-full max-w-md p-4">
         <h2 className="text-xl font-semibold mb-2 text-gray-200">
-          Today's Priorities
+          Today&apos;s Priorities
         </h2>
         <p className="text-gray-400 italic text-sm mb-4">
           Choose three key priorities to focus on today. You can drag to reorder

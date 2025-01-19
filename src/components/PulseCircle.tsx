@@ -6,7 +6,10 @@ interface PulseCircleProps {
   onComplete?: () => void
 }
 
-const PulseCircle: React.FC<PulseCircleProps> = ({ initialCount = 3, onComplete }) => {
+const PulseCircle: React.FC<PulseCircleProps> = ({
+  initialCount = 3,
+  onComplete
+}) => {
   const [count, setCount] = useState(initialCount)
   const controls = useAnimationControls()
   const [breathText, setBreathText] = useState('Breath In')
@@ -38,7 +41,7 @@ const PulseCircle: React.FC<PulseCircleProps> = ({ initialCount = 3, onComplete 
 
       const newCount = count - 1
       setCount(newCount)
-      
+
       if (newCount === 0 && onComplete) {
         onComplete()
       }

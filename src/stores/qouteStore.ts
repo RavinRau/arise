@@ -4,7 +4,7 @@ class QuoteStore {
   quote = ''
   author = ''
   loading = false
-  error = null
+  error: string | null = null
 
   constructor() {
     makeAutoObservable(this)
@@ -18,8 +18,12 @@ class QuoteStore {
       const data = await response.json()
       this.quote = data.quote
       this.author = data.author
-    } catch (error: any) {
-      this.error = error.message
+    } catch (error) {
+      if (error instanceof Error) {
+        this.error = error.message
+      } else {
+        this.error = 'An unknown error occurred'
+      }
     } finally {
       this.loading = false
     }

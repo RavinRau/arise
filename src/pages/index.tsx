@@ -5,7 +5,6 @@ import PulseCircle from '@/components/PulseCircle'
 import { globalStore } from '@/stores/globalStore'
 import { StartYourDay } from '@/screen/StartYourDay'
 import { PriorityForTheDay } from '@/screen/PriorityForTheDay'
-import DayGreeting from '@/components/DayGreeting'
 
 const Home: React.FC = observer(() => {
   const [showPriority, setShowPriority] = useState(false)

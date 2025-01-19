@@ -7,9 +7,9 @@ class GlobalStore {
     makeAutoObservable(this)
   }
 
-    onClickStart = async () => {
-        this.startDay = true
-    }
+  onClickStart = async () => {
+    this.startDay = true
+  }
 }
 
 export const globalStore = new GlobalStore()
