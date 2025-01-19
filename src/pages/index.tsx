@@ -27,7 +27,7 @@ const Home: React.FC = observer(() => {
           <PulseCircle initialCount={3} onComplete={handleComplete} />
         )
       ) : (
-        <PriorityForTheDay />
+        <StartYourDay />
       )}
     </div>
   )

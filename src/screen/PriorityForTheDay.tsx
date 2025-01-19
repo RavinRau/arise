@@ -30,7 +30,7 @@ export const PriorityForTheDay: React.FC = observer(() => {
           them based on importance.
         </p>
 
-        <div className="w-full h-[13rem] px-4">
+        <div className="w-full h-[15rem] px-4">
           {priorityStore.canAddMore && (
             <div className="relative mb-8">
               <Input
